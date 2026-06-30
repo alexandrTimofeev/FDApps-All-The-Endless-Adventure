@@ -30,7 +30,8 @@ public class Door : MonoBehaviour
 
         // Disable exit and bag button
         GameObject exitButton = GameObject.FindWithTag("ExitButton");
-        exitButton.SetActive(false);
+        if(exitButton)
+            exitButton.SetActive(false);
 
         // GameObject bagButton = GameObject.FindWithTag("BagButton");
         // bagButton.SetActive(false);

@@ -1,10 +1,20 @@
 fileFormatVersion: 2
-guid: 45d5034162d6cf04dbe46da84fc7d074
+guid: bf27b3f704244da0af729a6737adb7f1
+labels:
+- gvh_version-1.2.185
+- gvhp_exportpath-ExternalDependencyManager/Editor/1.2.185/Google.PackageManagerResolver.dll
+- gvh
+- gvhp_targets-editor
 PluginImporter:
-  serializedVersion: 1
+  externalObjects: {}
+  serializedVersion: 3
   iconMap: {}
   executionOrder: {}
+  defineConstraints: []
   isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
   platformData:
     Any:
       enabled: 0
@@ -20,10 +30,3 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 27676
-  packageName: DOTween (HOTween v2)
-  packageVersion: 1.2.825
-  assetPath: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll
-  uploadId: 939688
